@@ -9,8 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
+    <!-- header section  -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#">
                   <img src="images/logo.png" alt="">
@@ -24,19 +25,19 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#bags">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-          <!-- Image slider start -->
+          <!-- carusel slider section -->
             <section class="container">
               <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner p-5 bg-success">
@@ -91,7 +92,7 @@
                 </div>
             </section>
     </header>
-    <main>  
+    <main> 
             <!-- Products section  -->
             <section class="container my-5">
 
@@ -118,7 +119,7 @@
                   
             </section>
             <!-- shoes section  -->
-            <section class="container my-5">
+            <section class="container my-5" id="shoes">
                 <h2>Shoes</h2>
                 <div class="row row-cols-1 row-cols-md-2  row-cols-lg-3 g-5">
                     <div class="col">
@@ -163,7 +164,7 @@
                   </div>
             </section>
             <!-- bags section  -->
-            <section class="container my-5">
+            <section class="container my-5" id="bags">
                 <h2>Bags</h2>
                 <div class="row row-cols-1 row-cols-md-2  row-cols-lg-3 g-5">
                     <div class="col">
@@ -207,9 +208,19 @@
                     </div>
                   </div>
             </section>
-    </main>
-    <footer>
-
+            <!-- subscribe section  -->
+            <section style="height: 450px;" id="subscribe"  class="container d-flex justify-content-center align-items-center bg-info my-5">
+                <div>
+                    <h1>LET'S STAY IN TOUCH</h1>
+                    <p>Get updates on sales, specials and more</p>
+                    <input type="Email">
+                    <br>
+                    <div class="btn btn-danger">SUBMIT</div>
+                </div>
+            </section>
+    </main>    
+    <footer class="text-center">
+        <p><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
     </footer>
 
 
